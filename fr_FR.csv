@@ -854,6 +854,7 @@ Grid,Grille,module,Magento_Catalog
 List,Liste,module,Magento_Catalog
 All,Tous,module,Magento_Catalog
 "Product is not loaded","Le produit n'est pas chargé.",module,Magento_Catalog
+"Can't delete root category.","Impossible de supprimer la catégorie racine.",module,Magento_Catalog
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Le tri par défaut dans les listes de produits ne fait pas partie des options de tri disponibles.",module,Magento_Catalog
 "No layout updates","Pas de modification de l'agencement",module,Magento_Catalog
 "Products only","Produits seulement",module,Magento_Catalog
@@ -888,7 +889,9 @@ Category,Catégorie,module,Magento_Catalog
 "Use config","Utiliser la config",module,Magento_Catalog
 Enabled,Activé,module,Magento_Catalog
 Disabled,Désactivé,module,Magento_Catalog
+"Such image doesn't exist","Cette image n’existe pas",module,Magento_Catalog
 "Select type options required values rows.","Sélectionner les lignes des valeurs obligatoires des options",module,Magento_Catalog
+"Could not save product option","Impossible d'enregistrer l'option du produit",module,Magento_Catalog
 "Please specify date required option(s).","Spécifiez la ou les option(s) de date obligatoire(s).",module,Magento_Catalog
 "Please specify time required option(s).","Spécifiez la ou les option(s) d'heure obligatoire(s).",module,Magento_Catalog
 "Some of the selected item options are not currently available.","Certaines options choisies ne sont pas disponibles pour le moment.",module,Magento_Catalog
@@ -897,9 +900,14 @@ Disabled,Désactivé,module,Magento_Catalog
 "Not Visible Individually","Non visible individuellement",module,Magento_Catalog
 Search,Chercher,module,Magento_Catalog
 "Catalog, Search","Catalogue, Recherche",module,Magento_Catalog
+"Requested product doesn't exist","Le produit demandé n'existe pas",module,Magento_Catalog
+"Product option with id %1 does not exist","L'option du produit avec l'id %1 n'existe pas",module,Magento_Catalog
+"Attribute '%1' is locked. %2","L'attribut '%1' est verrouillé. %2",module,Magento_Catalog
 "A product type is not defined for the indexer.","Aucun type de produit n'est défini pour l'indexer.",module,Magento_Catalog
+"%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 n'étend pas \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",module,Magento_Catalog
 "Multiple Select","Sélection multiple",module,Magento_Catalog
 Dropdown,"Liste déroulante",module,Magento_Catalog
+"%1 doesn't extend \Magento\Framework\Filter\Template","%1 n'étend pas \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as","À partir de",module,Magento_Catalog
 message,Message,module,Magento_Catalog
 Select...,Sélectionner...,module,Magento_Catalog
@@ -4079,6 +4087,7 @@ Title,Titre,module,Magento_CatalogWidget
 Template,Gabarit,module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","Durée de vie du cache (secondes)",module,Magento_CatalogWidget
 Thumbnail,Miniature,module,Magento_Catalog
+"Custom image","Image personnalisée",module,Magento_Catalog
 "List Mode","Mode d'affichage",module,Magento_Catalog
 "Products per Page on Grid Allowed Values","Valeurs autorisées pour le nombre de produits par page dans l'affichage en grille",module,Magento_Catalog
 Comma-separated.,"Séparées par des virgules.",module,Magento_Catalog
