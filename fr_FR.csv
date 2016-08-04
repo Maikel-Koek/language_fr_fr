@@ -3165,6 +3165,7 @@ Advanced,Avancé,module,Magento_Backend
 "Sales Representative","Représentant des ventes",module,Magento_Backend
 "Customer Support","Support client",module,Magento_Backend
 "Design Theme","Theme de design",module,Magento_Backend
+"User-Agent Exceptions","Exceptions de User-Agent",module,Magento_Backend
 "Pagination Frame","Trame de pagination",module,Magento_Backend
 "How many links to display at once.","Nombre de liens à afficher à la fois.",module,Magento_Backend
 "Pagination Frame Skip","Taille de la trame de pagination",module,Magento_Backend
@@ -3225,6 +3226,7 @@ Admin,Administration,module,Magento_Backend
 Security,Sécurité,module,Magento_Backend
 "Add Secret Key to URLs","Ajouter une clé secrète aux URLs",module,Magento_Backend
 "Login is Case Sensitive","L'identifiant utilisateur est sensible à la casse",module,Magento_Backend
+"Values less than 60 are ignored.","Les valeurs inférieures à 60 sont ignorées.",module,Magento_Backend
 "Enable Charts","Activer les graphiques",module,Magento_Backend
 "Url Options","Options d'URL",module,Magento_Backend
 "Add Store Code to Urls","Ajouter le code du magasin aux URLs",module,Magento_Backend
