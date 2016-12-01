@@ -444,6 +444,8 @@ Always,Toujours,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Attention</strong> : le captcha est sensible à la casse.",module,Magento_Captcha
 "Reload captcha","Recharger le captcha",module,Magento_Captcha
 "Please type the letters below","Veuillez saisir les lettres ci-dessous",module,Magento_Captcha
+"Custom options have different types.","Options personnalisées ont différents types.",module,Magento_CatalogImportExport
+"Please correct the parameters.","S’il vous plaît corriger les paramètres.",module,Magento_CatalogImportExport
 "ALL GROUPS","TOUS LES GROUPES",module,Magento_CatalogInventory
 "Customer Group","Groupe de clients",module,Magento_CatalogInventory
 "Minimum Qty","Quantité mini",module,Magento_CatalogInventory
@@ -1095,6 +1097,7 @@ Change,Modifier,module,Magento_Customer
 "Default Shipping Address","Adresse de livraison par défaut",module,Magento_Customer
 "Contact Information","Informations de contact",module,Magento_Customer
 "Change Password","Modifier le mot de passe",module,Magento_Customer
+or,ou,module,Magento_Customer
 "Default Addresses","Adresses par défaut",module,Magento_Customer
 "Change Billing Address","Modifier l'adresse de facturation",module,Magento_Customer
 "You have no default billing address in your address book.","Vous n'avez pas d'adresse de facturation par défaut dans votre carnet d'adresses.",module,Magento_Customer
