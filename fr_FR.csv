@@ -837,6 +837,8 @@ City,Ville,module,Magento_Checkout
 Country,Pays,module,Magento_Checkout
 State/Province,État/Région,module,Magento_Checkout
 "Zip/Postal Code","Code postal""Express Checkout and Order have been canceled.",module,Magento_Checkout
+"My Cart (1 item)","Mon panier (1 article)",module,Magento_Checkout
+"My Cart (%1 items)","Mon panier (%1 articles)",module,Magento_Checkout
 "My Cart","Mon panier",module,Magento_Checkout
 "You added %1 to your shopping cart.","Vous avez ajouté %1 à votre panier.",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","Éditer les paramètres de l'article",module,Magento_Checkout
@@ -3401,6 +3403,7 @@ Details,Détails,module,Magento_Catalog
 "Separate by "","".","Separate by "",Séparer par """"",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","Envoyer une copie du mail d'erreur de paiement en utilisant la méthode",module,Magento_Checkout
 "Shipping Address","Adresse de livraison",module,Magento_Checkout
+"For delivery questions.","Pour les questions de livraison.",module,Magento_Checkout
 "Thank you for your purchase!","Merci de votre achat !",module,Magento_Checkout
 "CMS Home Page","Page d'accueil CMS",module,Magento_Cms
 "CMS No Route Page","Page CMS de ressource non trouvée",module,Magento_Cms
