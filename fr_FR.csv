@@ -832,8 +832,10 @@ Sales,Ventes,module,Magento_CheckoutAgreements
 "Checkout Conditions","Conditions de commande",module,Magento_CheckoutAgreements
 "Checkout Terms and Conditions","Conditions générales de ventes",module,Magento_CheckoutAgreements
 "This condition no longer exists.","Cette condition n'existe plus.",module,Magento_CheckoutAgreements
+"Something went wrong  while deleting this condition.","Une erreur s'est produite durant la suppression de cette condition.",module,Magento_CheckoutAgreements
 "Edit Condition","Éditer la condition",module,Magento_CheckoutAgreements
 "New Condition","Nouvelle condition",module,Magento_CheckoutAgreements
+"Something went wrong while saving this condition.","Une erreur s'est produite lors de l’enregistrement de cette condition.",module,Magento_CheckoutAgreements
 "Shopping Cart",Panier,module,Magento_Checkout
 "Invalid method: %1","Envoyer une copie du mail d'erreur de paiement en utilisant la méthode",module,Magento_Checkout
 City,Ville,module,Magento_Checkout
@@ -1143,6 +1145,7 @@ Gender,Sexe,module,Magento_Customer
 Name,Nom,module,Magento_Customer
 "Tax/VAT number","Numéro de TVA intracommunautaire",module,Magento_Customer
 "Client side less compilation","Laissez vide si vous souhaitez y accéder depuis n'importe où.",module,Magento_Developer
+"Server side less compilation","Compilation less coté serveur",module,Magento_Developer
 Pounds,Livres,module,Magento_Dhl
 Kilograms,Kilos,module,Magento_Dhl
 Inches,Pouces,module,Magento_Dhl
@@ -1182,11 +1185,16 @@ None,Aucun,module,Magento_Dhl
 State/Province,État/Région,module,Magento_Directory
 "--Please Select--","--Votre choix--",module,Magento_Directory
 "Please correct the target currency.","Veuillez corriger la devise cible.",module,Magento_Directory
+"Undefined rate from ""%1-%2"".","Taux indéfini depuis ""%1-%2"".",module,Magento_Directory
 label,Libellé,module,Magento_Directory
 "FATAL ERROR:","ERREUR FATALE :",module,Magento_Directory
+"Please specify the correct Import Service.","Veuillez spécifier un service d’importation valide.",module,Magento_Directory
 WARNING:,"ATTENTION :",module,Magento_Directory
+"Please correct the country code: %1.","Veuillez corriger le code pays: %1.",module,Magento_Directory
 "Country and Format Type combination should be unique","La combinaison Pays et Type de format doit être unique",module,Magento_Directory
+"Please correct the rates received","Veuillez corriger les taux récupérés",module,Magento_Directory
 Currency,Devise,module,Magento_Directory
+"Your current currency is: %1.","La devise actuelle est: %1.",module,Magento_Directory
 Continue,Continuer,module,Magento_Directory
 "Downloadable Information","Informations téléchargements",module,Magento_Downloadable
 "Upload Files","Télécharger les fichiers",module,Magento_Downloadable
@@ -1448,11 +1456,16 @@ label,Libellé,module,Magento_ImportExport
 Continue,Continuer,module,Magento_ImportExport
 "Validation Results","Résultat de validation",module,Magento_ImportExport
 "Indexer Management",Indexe,module,Magento_Indexer
+"Update by Schedule","Mise à jour périodique",module,Magento_Indexer
 "Update on Save","Mise à jour à la sauvegarde",module,Magento_Indexer
+"Reindex required","Réindexation nécessaire",module,Magento_Indexer
 Ready,Prêt,module,Magento_Indexer
 Processing,"En cours de traitement",module,Magento_Indexer
 Never,Jamais,module,Magento_Indexer
 "Index Management","Gestion des indexes",module,Magento_Indexer
+"Please select indexers.","Veuillez sélectionner les indexes.",module,Magento_Indexer
+"State for the same indexer","État pour le même index",module,Magento_Indexer
+"State for the same view","État pour la même vue",module,Magento_Indexer
 Integrations,"Période d'expiration",module,Magento_Integration
 Save,Sauvegarder,module,Magento_Integration
 General,Général,module,Magento_Integration
@@ -1479,9 +1492,15 @@ Previous,Précédent,module,Magento_LayeredNavigation
 "Shop By","Filtrer par",module,Magento_LayeredNavigation
 "Clear All","Tout supprimer",module,Magento_LayeredNavigation
 "Shopping Options","Affiner la recherche",module,Magento_LayeredNavigation
+"File %1 does not exist","Le fichier %1 n’existe pas",module,Magento_MediaStorage
+"File %1 is not readable","Le fichier %1 n’est pas lisible",module,Magento_MediaStorage
+"Parent directory does not exist: %1","Le répertoire parent n’existe pas: %1",module,Magento_MediaStorage
 "File system","Système de fichiers",module,Magento_MediaStorage
+"Unable to save file ""%1"" at ""%2""","Impossible de sauvegarder le fichier ""%1"" sur ""%2""",module,Magento_MediaStorage
 "Wrong file info format","Mauvais format d'informations de fichier",module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.","Veuillez renseigner correctement la liste des chemins avant validation.",module,Magento_MediaStorage
+"Unable to create directory: %1","Impossible de créer le répertoire: %1",module,Magento_MediaStorage
+"Unable to save file: %1","Impossible de sauvegarder le fichier: %1",module,Magento_MediaStorage
 "Change Billing Address","Modifier l'adresse de facturation",module,Magento_Multishipping
 "Ship to Multiple Addresses","Livrer à plusieurs adresses",module,Magento_Multishipping
 "Billing Information - %1","Informations de facturation - %1",module,Magento_Multishipping
@@ -1606,6 +1625,9 @@ Subscribe,Inscription,module,Magento_Newsletter
 "Make Check payable to:","Libeller le chèque à l'ordre de :",module,Magento_OfflinePayments
 "Send Check to:","Envoyer le chèque à :",module,Magento_OfflinePayments
 "Purchase Order Number","Numéro de bon de commande",module,Magento_OfflinePayments
+"Make Check payable to: %1","Chèque libellé à l’ordre de: %1",module,Magento_OfflinePayments
+"Purchase Order Number: %1","Numéro de bon de commande : %1",module,Magento_OfflinePayments
+"Make Check payable to","Chèque libellé à l’ordre de",module,Magento_OfflinePayments
 "Send Check to","Envoyer le chèque à",module,Magento_OfflinePayments
 Country,Pays,module,Magento_OfflineShipping
 Region/State,Région/État,module,Magento_OfflineShipping
@@ -3448,6 +3470,7 @@ Block,Bloc,module,Magento_Cms
 "History Cleanup Every","Nettoyer l'historique toutes les",module,Magento_Cron
 "Success History Lifetime","Durée de vie de l'historique des succès",module,Magento_Cron
 "Failure History Lifetime","Durée de vie de l'historique des échecs",module,Magento_Cron
+"Use Separate Process","Utiliser des processus séparés",module,Magento_Cron
 "Excel XML","XML d'Excel",module,Magento_CustomerImportExport
 "Customer Configuration","Configuration client",module,Magento_Customer
 "Account Sharing Options","Options de partage de compte",module,Magento_Customer
@@ -3510,6 +3533,8 @@ Addresses,Adresses,module,Magento_Customer
 "Edit Account Information","Éditer les informations du compte",module,Magento_Customer
 "Password forgotten","Mot de passe oublié",module,Magento_Customer
 "My Dashboard","Mon tableau de bord",module,Magento_Customer
+"Workflow type","Type d’automatisation de processus",module,Magento_Developer
+"Not available in production mode","Non disponible en mode production",module,Magento_Developer
 "Developer Client Restrictions","Restrictions client développeur",module,Magento_Developer
 "Allowed IPs (comma separated)","IPs autorisées (séparées par des virgules)",module,Magento_Developer
 "Leave empty for access from any location.","Laissez vide si vous souhaitez y accéder depuis n'importe où.",module,Magento_Developer
@@ -3548,6 +3573,10 @@ Enabled,Activé,module,Magento_Directory
 Frequency,Fréquence,module,Magento_Directory
 "Start Time","Heure de début""An error occurred while creating the image.",module,Magento_Directory
 "Installed Currencies","Devises installées",module,Magento_Directory
+"Zip/Postal Code is Optional for","Le code postal est optionnel pour",module,Magento_Directory
+"State Options","Options des états",module,Magento_Directory
+"State is Required for","L’état est obligatoire pour",module,Magento_Directory
+"Allow to Choose State if It is Optional for Country","Afficher l’état si il n’est pas obligatoire",module,Magento_Directory
 "Downloadable Product Options","Options du produit téléchargeable",module,Magento_Downloadable
 "Order Item Status to Enable Downloads","Statut du produit commandé pour activer le téléchargement",module,Magento_Downloadable
 "Default Maximum Number of Downloads","Nombre maximum de téléchargements par défaut",module,Magento_Downloadable
