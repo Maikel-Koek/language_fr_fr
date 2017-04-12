@@ -1055,6 +1055,7 @@ Enabled,Activé,module,Magento_CheckoutAgreements
 Disabled,Désactivé,module,Magento_CheckoutAgreements
 "Show Content as","Afficher le contenu comme",module,Magento_CheckoutAgreements
 Text,Texte,module,Magento_CheckoutAgreements
+Applied,Appliqué,module,Magento_CheckoutAgreements
 "Store View","Vue magasin",module,Magento_CheckoutAgreements
 "Checkbox Text","Texte de la case à cocher",module,Magento_CheckoutAgreements
 Content,Contenu,module,Magento_CheckoutAgreements
@@ -1064,9 +1065,18 @@ Sales,Ventes,module,Magento_CheckoutAgreements
 "Checkout Conditions","Conditions de commande",module,Magento_CheckoutAgreements
 "Checkout Terms and Conditions","Conditions générales de ventes",module,Magento_CheckoutAgreements
 "This condition no longer exists.","Cette condition n'existe plus.",module,Magento_CheckoutAgreements
+"You deleted the condition.","Vous avez supprimé la condition.",module,Magento_CheckoutAgreements
+"Something went wrong  while deleting this condition.","Une erreur s'est produite durant la suppression de cette condition.",module,Magento_CheckoutAgreements
 "Edit Condition","Éditer la condition",module,Magento_CheckoutAgreements
 "New Condition","Nouvelle condition",module,Magento_CheckoutAgreements
+"You saved the condition.","La condition a été sauvegardée.",module,Magento_CheckoutAgreements
+"Something went wrong while saving this condition.","Une erreur s'est produite lors de l’enregistrement de cette condition.",module,Magento_CheckoutAgreements
+Automatically,Automatiquement,module,Magento_CheckoutAgreements
+Manually,Manuellement,module,Magento_CheckoutAgreements
 "Please agree to all the terms and conditions before placing the order.","Veuillez accepter les conditions générales de ventes avant de valider la commande.",module,Magento_CheckoutAgreements
+"Unable to save checkout agreement %1","Impossible de sauvegarder la condition de vente %1",module,Magento_CheckoutAgreements
+"Unable to remove checkout agreement %1","Impossible de supprimer la condition de vente %1",module,Magento_CheckoutAgreements
+"Checkout agreement with specified ID ""%1"" not found.","La condition de vente liée à l’identifiant ""%1"" n’a pas été trouvée.",module,Magento_CheckoutAgreements
 "Shopping Cart",Panier,module,Magento_Checkout
 "Invalid method: %1","Envoyer une copie du mail d'erreur de paiement en utilisant la méthode",module,Magento_Checkout
 City,Ville,module,Magento_Checkout
@@ -1341,16 +1351,19 @@ Name,Nom,module,Magento_Contact
 "Phone Number","Numéro de téléphone",module,Magento_Contact
 "What’s on your mind?","Que voulez vous nous dire ?",module,Magento_Contact
 Submit,Valider,module,Magento_Contact
-"Invalid domain name: %1","Nom de domaine non valide : %1",module,Magento_Cookie
-"Invalid cookie lifetime: %1","Durée de vie de cookie non valide : %1",module,Magento_Cookie
+"Invalid domain name: %1","Nom de domaine non valide: %1",module,Magento_Cookie
+"Invalid cookie lifetime: %1","Durée de vie de cookie non valide: %1",module,Magento_Cookie
 "Invalid cookie path","Chemin d'accès du cookie non valide",module,Magento_Cookie
 "We use cookies to make your experience better.","Nous utilisons des cookies pour améliorer votre expérience utilisateur.",module,Magento_Cookie
+"To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Pour se conformer à la nouvelle directive concernant la vie privée, nous devons vous demander votre consentement pour définir des cookies.",module,Magento_Cookie
 "<a href=""%1"">Learn more</a>.","<a href=""%1""> en savoir plus</a>.",module,Magento_Cookie
 "Allow Cookies","Autoriser les cookies",module,Magento_Cookie
 "We can't save the cron expression.","Impossible de sauvegarder l'expression de la tâche programmée",module,Magento_Cron
 Daily,Quotidien,module,Magento_Cron
 Weekly,"Hebdomadaire""Custom currency symbols were applied successfully.",module,Magento_Cron
 Monthly,Mensuel,module,Magento_Cron
+"Invalid cron expression: %1","Expression du cron invalide: %1",module,Magento_Cron
+"Invalid cron expression, expecting numeric modulus: %1","Expression du cron invalide, modulo numérique attendu: %1",module,Magento_Cron
 "Save Currency Rates","Sauvegarder les taux de devises",module,Magento_CurrencySymbol
 Reset,Réinitialiser,module,Magento_CurrencySymbol
 Import,Importer,module,Magento_CurrencySymbol
@@ -1558,7 +1571,9 @@ Gender,Sexe,module,Magento_Customer
 Name,Nom,module,Magento_Customer
 "Tax/VAT number","Numéro de TVA intracommunautaire",module,Magento_Customer
 "Cannot switch into given mode ""%1""","Vous ne pouvez pas passé dans le mode désiré ""%1""",module,Magento_Deploy
+"Format for IDE '%1' is not supported","Le format pour l’EDI '%1' n’est pas pris en charge",module,Magento_Developer
 "Client side less compilation","Laissez vide si vous souhaitez y accéder depuis n'importe où.",module,Magento_Developer
+"Server side less compilation","Compilation less coté serveur",module,Magento_Developer
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","Sélectionnez cette option pour permettre à DHL d'optimiser les frais d'expédition en divisant la commande si elle dépasse 70 Kg.",module,Magento_Dhl
 Pounds,Livres,module,Magento_Dhl
 Kilograms,Kilos,module,Magento_Dhl
@@ -1598,14 +1613,20 @@ Others,Autres,module,Magento_Dhl
 None,Aucun,module,Magento_Dhl
 State/Province,État/Région,module,Magento_Directory
 "--Please Select--","--Votre choix--",module,Magento_Directory
+"Requested country is not available.","Le pays demandé n’est pas disponible.",module,Magento_Directory
 "Please correct the target currency.","Veuillez corriger la devise cible.",module,Magento_Directory
+"Undefined rate from ""%1-%2"".","Taux indéfini depuis ""%1-%2"".",module,Magento_Directory
 label,Libellé,module,Magento_Directory
 "FATAL ERROR:","ERREUR FATALE :",module,Magento_Directory
 "We can't initialize the import model.","Impossible d'initialiser le modèle d'importation.",module,Magento_Directory
+"Please specify the correct Import Service.","Veuillez spécifier un service d’importation valide.",module,Magento_Directory
 WARNING:,"ATTENTION :",module,Magento_Directory
+"Please correct the country code: %1.","Veuillez corriger le code pays: %1.",module,Magento_Directory
 "Country and Format Type combination should be unique","La combinaison Pays et Type de format doit être unique",module,Magento_Directory
+"Please correct the rates received","Veuillez corriger les taux récupérés",module,Magento_Directory
 "Please select a region, state or province.","Merci de sélectionner une région, une état ou une province.",module,Magento_Directory
 Currency,Devise,module,Magento_Directory
+"Your current currency is: %1.","La devise actuelle est: %1.",module,Magento_Directory
 Continue,Continuer,module,Magento_Directory
 "File directory '%1' is not readable.","Le répertoire '%1' n'est pas autorisé en écriture.",module,Magento_DownloadableImportExport
 Error,Erreur,module,Magento_DownloadableImportExport
@@ -1896,11 +1917,16 @@ Delete,Supprimer,module,Magento_ImportExport
 Continue,Continuer,module,Magento_ImportExport
 "Validation Results","Résultat de validation",module,Magento_ImportExport
 "Indexer Management",Indexe,module,Magento_Indexer
+"Update by Schedule","Mise à jour périodique",module,Magento_Indexer
 "Update on Save","Mise à jour à la sauvegarde",module,Magento_Indexer
+"Reindex required","Réindexation nécessaire",module,Magento_Indexer
 Ready,Prêt,module,Magento_Indexer
 Processing,"En cours de traitement",module,Magento_Indexer
 Never,Jamais,module,Magento_Indexer
 "Index Management","Gestion des indexes",module,Magento_Indexer
+"Please select indexers.","Veuillez sélectionner les indexes.",module,Magento_Indexer
+"State for the same indexer","État pour le même index",module,Magento_Indexer
+"State for the same view","État pour la même vue",module,Magento_Indexer
 "Test Phrase","Phrase de test",module,Magento_Indexer
 Integrations,"Période d'expiration",module,Magento_Integration
 Save,Sauvegarder,module,Magento_Integration
@@ -1928,8 +1954,11 @@ Resources,Ressources,module,Magento_Integration
 No,Non,module,Magento_LayeredNavigation
 "Use in Layered Navigation","Utiliser dans la navigation par filtres",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price","Ne peut être utilisé qu'avec un type de saisie ""liste déroulante"", ""choix multiple"" ou ""prix""",module,Magento_LayeredNavigation
+"Use in Search Results Layered Navigation","Utiliser dans la navigation par filtres des résultats de recherche",module,Magento_LayeredNavigation
 "Position in Layered Navigation","Position dans la navigation par filtres",module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Position de l'attribut dans le bloc de navigation par filtres",module,Magento_LayeredNavigation
+item,article,module,Magento_LayeredNavigation
+items,articles,module,Magento_LayeredNavigation
 "Now Shopping by","Livraison #%shipment_id pour la commande #%order_id",module,Magento_LayeredNavigation
 Previous,Précédent,module,Magento_LayeredNavigation
 Remove,Supprimer,module,Magento_LayeredNavigation
@@ -1938,15 +1967,24 @@ Remove,Supprimer,module,Magento_LayeredNavigation
 "Clear All","Tout supprimer",module,Magento_LayeredNavigation
 "Shopping Options","Affiner la recherche",module,Magento_LayeredNavigation
 Synchronize,Synchroniser,module,Magento_MediaStorage
+"Synchronizing %1 to %2","Synchronisation en cours de %1 vers %2",module,Magento_MediaStorage
 Synchronizing...,"Synchronisation en cours...",module,Magento_MediaStorage
+"The timeout limit for response from synchronize process was reached.","La limite du délai d’attente de la réponse du processus de synchronisation a été atteinte.",module,Magento_MediaStorage
+"File %1 does not exist","Le fichier %1 n’existe pas",module,Magento_MediaStorage
+"File %1 is not readable","Le fichier %1 n’est pas lisible",module,Magento_MediaStorage
 "File System","Système de fichiers",module,Magento_MediaStorage
 Database,"Base de données",module,Magento_MediaStorage
+"database ""%1""","base de données ""%1""",module,Magento_MediaStorage
+"Parent directory does not exist: %1","Le répertoire parent n’existe pas: %1",module,Magento_MediaStorage
 "File system","Système de fichiers",module,Magento_MediaStorage
+"Unable to save file ""%1"" at ""%2""","Impossible de sauvegarder le fichier ""%1"" sur ""%2""",module,Magento_MediaStorage
 "Wrong file info format","Mauvais format d'informations de fichier",module,Magento_MediaStorage
 "Path ""%value%"" is protected and cannot be used.","Le chemin ""%value%"" est protégé et ne peut pas être utilisé.",module,Magento_MediaStorage
 "Path ""%value%"" is not available and cannot be used.","Le chemin ""%value%"" n'est pas correct et ne peut pas être utilisé.",module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.","Veuillez renseigner correctement la liste des chemins avant validation.",module,Magento_MediaStorage
 "File with an extension ""%value%"" is protected and cannot be uploaded","Le fichier avec l'extension ""%value%"" est protégé et ne peut pas être uploadé",module,Magento_MediaStorage
+"Unable to create directory: %1","Impossible de créer le répertoire: %1",module,Magento_MediaStorage
+"Unable to save file: %1","Impossible de sauvegarder le fichier: %1",module,Magento_MediaStorage
 "To see product price, add this item to your cart. You can always remove it later.","Pour voir le prix du produit, ajoutez cet article à votre panier. Vous pourrez toujours l'enlever plus tard.",module,Magento_Msrp
 "See price before order confirmation.","Voir le prix avant la confirmation de la commande",module,Magento_Msrp
 "On Gesture","Au geste",module,Magento_Msrp
@@ -1954,6 +1992,8 @@ Database,"Base de données",module,Magento_MediaStorage
 "Before Order Confirmation","Avant la confirmation de commande",module,Magento_Msrp
 "Use config","Utiliser la config",module,Magento_Msrp
 "Click for price","Cliquez pour afficher le prix",module,Magento_Msrp
+"Order total will be displayed before you submit the order","Le total de la commande s'affichera avant la confirmation de commande",module,Magento_Msrp
+"You will see the order total before you submit the order.","Vous verrez le total de la commande avant de valider la commande.",module,Magento_Msrp
 Price,Prix,module,Magento_Msrp
 "Actual Price","Prix ​​actuel",module,Magento_Msrp
 "Add to Cart","Ajouter au panier",module,Magento_Msrp
@@ -2087,6 +2127,9 @@ Subscribe,Inscription,module,Magento_Newsletter
 "Make Check payable to:","Libeller le chèque à l'ordre de :",module,Magento_OfflinePayments
 "Send Check to:","Envoyer le chèque à :",module,Magento_OfflinePayments
 "Purchase Order Number","Numéro de bon de commande",module,Magento_OfflinePayments
+"Make Check payable to: %1","Chèque libellé à l’ordre de: %1",module,Magento_OfflinePayments
+"Purchase Order Number: %1","Numéro de bon de commande : %1",module,Magento_OfflinePayments
+"Make Check payable to","Chèque libellé à l’ordre de",module,Magento_OfflinePayments
 "Send Check to","Envoyer le chèque à",module,Magento_OfflinePayments
 Country,Pays,module,Magento_OfflineShipping
 Region/State,Région/État,module,Magento_OfflineShipping
@@ -3962,6 +4005,7 @@ Title,Titre,module,Magento_Authorizenet
 "New Order Status","Statut d'une nouvelle commande",module,Magento_Authorizenet
 "Test Mode","Mode test",module,Magento_Authorizenet
 "Gateway URL","URL de passerelle",module,Magento_Authorizenet
+"Transaction Details URL","URL du détail de la transaction",module,Magento_Authorizenet
 "Accepted Currency","Devise acceptée",module,Magento_Authorizenet
 Debug,Déboguage,module,Magento_Authorizenet
 "Email Customer","Envoyer un email au client",module,Magento_Authorizenet
@@ -4142,16 +4186,20 @@ End,"Clé de cryptage",module,Magento_CatalogRule
 "Maximum Query Length","Longueur maxi de requête",module,Magento_CatalogSearch
 "Rebuild Catalog product fulltext search index","Reconstruire l'index de recherche sur le texte complet du catalogue produit",module,Magento_CatalogSearch
 "Category URL Suffix","Suffixe d'URL des catégories",module,Magento_CatalogUrlRewrite
+"You need to refresh the cache.","Vous devez rafraîchir le cache.",module,Magento_CatalogUrlRewrite
 "Product URL Suffix","Suffixe d'URL de produit",module,Magento_CatalogUrlRewrite
 "Use Categories Path for Product URLs","Utiliser le chemin des catégories pour l'URL des produits",module,Magento_CatalogUrlRewrite
 "Create Permanent Redirect for URLs if URL Key Changed","Créer une redirection permanente pour les URLs si la clé d'URL change",module,Magento_CatalogUrlRewrite
 "Catalog Products List","Template de la grille de produits",module,Magento_CatalogWidget
+"List of Products","Liste des produits",module,Magento_CatalogWidget
 Title,Titre,module,Magento_CatalogWidget
 "Display Page Control","Contrôle de l'affichage de la page",module,Magento_CatalogWidget
 "Number of Products per Page","Nombre de produits par page",module,Magento_CatalogWidget
 "Number of Products to Display","Nombre de produits à afficher",module,Magento_CatalogWidget
 Template,Gabarit,module,Magento_CatalogWidget
+"Products Grid Template","Template de la grille de produits",module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","Durée de vie du cache (secondes)",module,Magento_CatalogWidget
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 par défaut, si non renseigné. Pour actualiser, purgez le cache de sortie des blocs HTML.",module,Magento_CatalogWidget
 Main,Principal,module,Magento_Catalog
 Thumbnail,Miniature,module,Magento_Catalog
 "Custom image","Image personnalisée",module,Magento_Catalog
@@ -4322,6 +4370,7 @@ Searchable,"Utiliser dans la recherche",module,Magento_ConfigurableProduct
 "History Cleanup Every","Nettoyer l'historique toutes les",module,Magento_Cron
 "Success History Lifetime","Durée de vie de l'historique des succès",module,Magento_Cron
 "Failure History Lifetime","Durée de vie de l'historique des échecs",module,Magento_Cron
+"Use Separate Process","Utiliser des processus séparés",module,Magento_Cron
 "Excel XML","XML d'Excel",module,Magento_CustomerImportExport
 "Customer Configuration","Configuration client",module,Magento_Customer
 "Account Sharing Options","Options de partage de compte",module,Magento_Customer
@@ -4387,6 +4436,8 @@ Addresses,Adresses,module,Magento_Customer
 "Edit Account Information","Éditer les informations du compte",module,Magento_Customer
 "Password forgotten","Mot de passe oublié",module,Magento_Customer
 "My Dashboard","Mon tableau de bord",module,Magento_Customer
+"Workflow type","Type d’automatisation de processus",module,Magento_Developer
+"Not available in production mode","Non disponible en mode production",module,Magento_Developer
 "Developer Client Restrictions","Restrictions client développeur",module,Magento_Developer
 "Allowed IPs (comma separated)","IPs autorisées (séparées par des virgules)",module,Magento_Developer
 "Leave empty for access from any location.","Laissez vide si vous souhaitez y accéder depuis n'importe où.",module,Magento_Developer
@@ -4426,6 +4477,10 @@ Enabled,Activé,module,Magento_Directory
 Frequency,Fréquence,module,Magento_Directory
 "Start Time","Heure de début""An error occurred while creating the image.",module,Magento_Directory
 "Installed Currencies","Devises installées",module,Magento_Directory
+"Zip/Postal Code is Optional for","Le code postal est optionnel pour",module,Magento_Directory
+"State Options","Options des états",module,Magento_Directory
+"State is Required for","L’état est obligatoire pour",module,Magento_Directory
+"Allow to Choose State if It is Optional for Country","Afficher l’état si il n’est pas obligatoire",module,Magento_Directory
 "Weight Unit","Unité de poids",module,Magento_Directory
 "Downloadable Product Options","Options du produit téléchargeable",module,Magento_Downloadable
 "Order Item Status to Enable Downloads","Statut du produit commandé pour activer le téléchargement",module,Magento_Downloadable
@@ -4504,6 +4559,7 @@ Status,Statut,module,Magento_Integration
 "Storage Configuration for Media","Configuration du stockage des media",module,Magento_MediaStorage
 "Media Storage","Stockage des medias",module,Magento_MediaStorage
 "Select Media Database","Sélectionner la base de données des media",module,Magento_MediaStorage
+"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Après la sélection d’un nouvel emplacement de stockage des médias, appuyez sur le bouton ""Synchroniser"" pour transférer tous les médias à cet emplacement. Les médias ne seront pas disponibles dans le nouvel emplacement jusqu’à ce que le processus de synchronisation soit terminé.",module,Magento_MediaStorage
 "Environment Update Time","Temps de mise à jour de l'environnement",module,Magento_MediaStorage
 "Minimum Advertised Price","Prix ​​minimum affiché",module,Magento_Msrp
 "Enable MAP","Activer le prix minimum affiché",module,Magento_Msrp
