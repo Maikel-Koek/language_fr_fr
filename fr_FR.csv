@@ -3217,12 +3217,20 @@ Debug,Déboguage,module,Magento_Backend
 "Template Settings","Paramètres de gabarit",module,Magento_Backend
 "Allow Symlinks","Autoriser les liens symboliques",module,Magento_Backend
 "Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Attention ! L'activation de cette fonctionnalité n'est pas recommandée dans un environnement de production car elle présente un risque de sécurité potentiel.",module,Magento_Backend
+"Minify Html","Minifier le HTML",module,Magento_Backend
 "Translate Inline","Traduire en ligne",module,Magento_Backend
 "Enabled for Admin","Activée pour l'admin",module,Magento_Backend
 "JavaScript Settings","Paramètres JavaScript",module,Magento_Backend
 "Merge JavaScript Files","Fusionner les fichiers javascript",module,Magento_Backend
+"Minify JavaScript Files","Minifier les fichiers JavaScript",module,Magento_Backend
 "CSS Settings","Paramètres CSS",module,Magento_Backend
 "Merge CSS Files","Fusionner les fichiers CSS",module,Magento_Backend
+"Minify CSS Files","Minifier les fichiers CSS",module,Magento_Backend
+"Image Processing Settings","Paramètres de traitement d'image",module,Magento_Backend
+"Image Adapter","Adaptateur d’image",module,Magento_Backend
+"Static Files Settings","Paramètres de fichiers statiques",module,Magento_Backend
+"Sign Static Files","Signer les fichiers statiques",module,Magento_Backend
+"Country Options","Options de pays",module,Magento_Backend
 "Allow Countries","Autoriser les pays",module,Magento_Backend
 "Default Country","Pays par défaut",module,Magento_Backend
 "European Union Countries","Pays de l'Union Européenne",module,Magento_Backend
@@ -3241,6 +3249,8 @@ City,Ville,module,Magento_Backend
 "Street Address",Adresse,module,Magento_Backend
 "Street Address Line 2","Adresse - ligne 2",module,Magento_Backend
 "VAT Number","Numéro de TVA""Cron (Scheduled Tasks) - all the times are in minutes",module,Magento_Backend
+"Single-Store Mode","Mode mono-boutique",module,Magento_Backend
+"Enable Single-Store Mode","Activer le mode mono-boutique",module,Magento_Backend
 "This setting will not be taken into account if system has more than one store view.","Ce paramètre ne sera pas pris dans le compte, si le système a plus d'une vue de magasin.",module,Magento_Backend
 "Mail Sending Settings","Paramètres d'envoi des emails",module,Magento_Backend
 "Disable Email Communications","Désactiver les envois d'email",module,Magento_Backend
@@ -3251,6 +3261,7 @@ Admin,Administration,module,Magento_Backend
 "Admin User Emails","Emails de l'administrateur",module,Magento_Backend
 "Forgot Password Email Template","Gabarit du mail d'oubli de mot de passe",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Backend
+"Forgot and Reset Email Sender","Expéditeur du mail d'oubli et de réinitialisation du mot de passe",module,Magento_Backend
 "Recovery Link Expiration Period (days)","Durée avant expiration d'un lien de récupération (en jours)",module,Magento_Backend
 "Please enter a number 1 or greater in this field.","Veuillez saisir un nombre supérieur ou égal à 1.",module,Magento_Backend
 "Startup Page","Page de démarrage",module,Magento_Backend
@@ -3269,9 +3280,12 @@ Security,Sécurité,module,Magento_Backend
 "Add Store Code to Urls","Ajouter le code du magasin aux URLs",module,Magento_Backend
 "Auto-redirect to Base URL","Rediriger automatiquement vers l'URL de base",module,Magento_Backend
 "Use Web Server Rewrites","Utiliser les réécritures du serveur web",module,Magento_Backend
+"Base URLs","URL de base",module,Magento_Backend
 "Base URL","URL de base",module,Magento_Backend
 "Base Link URL","URL de base lien",module,Magento_Backend
+"Base URLs (Secure)","URL de base (sécurisé)",module,Magento_Backend
 "Secure Base URL","URL de base sécurisée",module,Magento_Backend
+"Secure Base Link URL","URL de base sécurisée",module,Magento_Backend
 "Use Secure URLs in Admin","Utiliser des URLs sécurisées dans l'administration",module,Magento_Backend
 "Offloader header","En-tête de transcodeur",module,Magento_Backend
 "Default Pages","Pages par défaut",module,Magento_Backend
@@ -3299,13 +3313,17 @@ Name,Nom,module,Magento_Backup
 Size(bytes),"Taille (octets)",module,Magento_Backup
 Download,Télécharger,module,Magento_Backup
 Rollback,"Retour arrière (rollback)",module,Magento_Backup
+"Enable this Solution","Activer cette solution",module,Magento_Braintree
+"Enable PayPal through Braintree","Activer PayPal par le biais de Braintree",module,Magento_Braintree
 Title,Titre,module,Magento_Braintree
+Environment,Environnement,module,Magento_Braintree
 "Merchant Account ID","ID du compte marchand",module,Magento_Braintree
 "Merchant ID","ID de marchand",module,Magento_Braintree
 "Public Key","Clé publique",module,Magento_Braintree
 "Private Key","Clé privée",module,Magento_Braintree
 Debug,Déboguage,module,Magento_Braintree
 "Allow Duplicate Cards","Autoriser les cartes en double",module,Magento_Braintree
+"CVV Verification","Vérification du CVV",module,Magento_Braintree
 "Credit Card Types","Types de cartes de paiement",module,Magento_Braintree
 "Your Kount ID","Votre ID Kount",module,Magento_Braintree
 "Use Cache","Utiliser le cache",module,Magento_Braintree
