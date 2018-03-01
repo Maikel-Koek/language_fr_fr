@@ -460,6 +460,7 @@ Always,Toujours,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","Autoriser les quantités négatives et prévenir le client",module,Magento_CatalogInventory
 "In Stock","En stock",module,Magento_CatalogInventory
 "Out of Stock",Épuisé,module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","Pas tous vos produits sont disponibles dans la quantité demandée.",module,Magento_CatalogInventory
 "Product Name","Nom de produit",module,Magento_CatalogInventory
 Qty,Qté,module,Magento_CatalogInventory
 "Catalog Price Rule","Règle de prix catalogue",module,Magento_CatalogRule
@@ -509,10 +510,15 @@ Results,Résultats,module,Magento_CatalogSearch
 Grid,Grille,module,Magento_CatalogSearch
 List,Liste,module,Magento_CatalogSearch
 Relevance,Pertinence,module,Magento_CatalogSearch
+"Search results for: '%1'","Résultats de recherche pour : '%1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","Longueur minimale de requête recherche %1",module,Magento_CatalogSearch
 "Please specify at least one search term.","Spécifiez au moins un terme de recherche.",module,Magento_CatalogSearch
+"%1 and greater","%1 et supérieur",module,Magento_CatalogSearch
+"up to %1","jusqu'à %1",module,Magento_CatalogSearch
 "Search Settings","Paramètres de recherche",module,Magento_CatalogSearch
 Search,Chercher,module,Magento_CatalogSearch
 "Advanced Search","Recherche avancée",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 éléments</strong> ont été trouvés avec ces critères de recherche",module,Magento_CatalogSearch
 "Modify your search","Modifier votre recherche",module,Magento_CatalogSearch
 name,Nom,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Vous ne trouvez pas ce que vous cherchez ?",module,Magento_CatalogSearch
@@ -923,6 +929,8 @@ State/Province,État/Région,module,Magento_Checkout
 Checkout,Commander,module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Veuillez accepter les conditions générales de ventes avant de valider la commande.",module,Magento_Checkout
 "The product does not exist.","Le produit n'existe pas.",module,Magento_Checkout
+"We don't have some of the products you want.","Nous n'avons pas de certains des produits que vous souhaitez.",module,Magento_Checkout
+"We don't have as many of some products as you want.","Nous n'avons pas autant de certains produits que vous le souhaitez.",module,Magento_Checkout
 "Display number of items in cart","Afficher le nombre de produits différents dans le panier",module,Magento_Checkout
 "Display item quantities","Afficher la quantité totale d'articles dans le panier",module,Magento_Checkout
 "Load customer quote error","Erreur lors du chargement du panier client",module,Magento_Checkout
@@ -1028,6 +1036,7 @@ Blocks,Blocs,module,Magento_Cms
 "Expand All","Tout développer",module,Magento_Cms
 "Choose an Option...","Choisissez une option...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Cet attribut est utilisé dans les produits configurables.",module,Magento_ConfigurableProduct
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Ce groupe contient les attributs utilisés dans des produits configurables. S'il vous plaît déplacer ces attributs à un autre groupe et essayez de nouveau.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","Cet attribut est utilisé dans des produits configurables. Vous ne pouvez pas le retirer de ce jeu d'attributs.",module,Magento_ConfigurableProduct
 "Associated Products","Produits associés",module,Magento_ConfigurableProduct
 Select,Sélectionnez,module,Magento_ConfigurableProduct
@@ -1059,6 +1068,9 @@ Import,Importer,module,Magento_CurrencySymbol
 "All valid rates have been saved.","Tous les taux valides ont été sauvegardés.",module,Magento_CurrencySymbol
 System,Système,module,Magento_CurrencySymbol
 "Old rate:","Ancien taux :",module,Magento_CurrencySymbol
+"Customer address id column is not specified","La clientèle de l'adresse de colonne d'id n'est pas spécifié",module,Magento_CustomerImportExport
+"Orphan rows that will be skipped due default row errors","Orphelin de lignes qui seront ignorés en raison de ligne par défaut des erreurs",module,Magento_CustomerImportExport
+"Invalid value in Store column (store does not exists?)","Valeur non valide dans la colonne Store (le magasin n'existe pas?)",module,Magento_CustomerImportExport
 "You have not set a default shipping address.","Vous n'avez pas spécifié d'adresse de livraison par défaut.",module,Magento_Customer
 "You have not set a default billing address.","Vous n'avez pas spécifié d'adresse de facturation par défaut.",module,Magento_Customer
 "Address Book","Carnet d'adresses",module,Magento_Customer
@@ -1430,6 +1442,8 @@ Unknown,Inconnu,module,Magento_Email
 "New System Template","Nouveau gabarit système",module,Magento_Email
 "Email Templates","Gabarits d'email",module,Magento_Email
 "Email Preview","Aperçu de l'email",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Une erreur s’est produite. Le modèle d’e-mail ne peut pas être ouvert pour la prévisualisation.",module,Magento_Email
+"This email template no longer exists.","Ce gabarit d'email n'existe plus.",module,Magento_Email
 "Base Unsecure URL","URL de base non sécurisée",module,Magento_Email
 "Base Secure URL","URL de base sécurisée",module,Magento_Email
 "General Contact Name","Nom du contact général",module,Magento_Email
@@ -1451,6 +1465,9 @@ City,Ville,module,Magento_Email
 "Store Contact Information","Informations de contact du magasin",module,Magento_Email
 "Template Variables","Variables de gabarit",module,Magento_Email
 "Duplicate Of Template Name","Duplication du nom de gabarit",module,Magento_Email
+"Invalid transactional email code: %1","Email transactionnel invalide code : %1",module,Magento_Email
+"Requested invalid store ""%1""","Le magasin demandé ""%1"" n'est pas valide",module,Magento_Email
+"Invalid sender data","L'email de l'expéditeur est invalide",module,Magento_Email
 "Load default template","Charger le gabarit par défaut",module,Magento_Email
 Template,Gabarit,module,Magento_Email
 "Change Encryption Key","Modifier la clé de chiffrement",module,Magento_EncryptionKey
@@ -3511,6 +3528,7 @@ Comma-separated.,"Séparées par des virgules.",module,Magento_Catalog
 "Use Flat Catalog Product","Utiliser le catalogue à plat pour les produits",module,Magento_Catalog
 "Product Listing Sort by","Tri des listes de produits",module,Magento_Catalog
 "Allow All Products per Page","Autoriser tous les produits par page",module,Magento_Catalog
+"Whether to show ""All"" option in the ""Show X Per Page"" dropdown","Si option ""Tous"" dans le ""Afficher les X Par Page"" liste déroulante",module,Magento_Catalog
 "Allow Dynamic Media URLs in Products and Categories","Autoriser les URLs de media dynamiques dans les produits et catégories",module,Magento_Catalog
 "E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","Par ex. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Le parsing des directives dynamiques peut affecter les performances du catalogue.",module,Magento_Catalog
 "Product Image Placeholders","Emplacements de l'image par défaut des produits",module,Magento_Catalog
@@ -3518,6 +3536,7 @@ Comma-separated.,"Séparées par des virgules.",module,Magento_Catalog
 "Use Canonical Link Meta Tag For Categories","Utiliser un lien canonique de meta tag pour les catégories",module,Magento_Catalog
 "Use Canonical Link Meta Tag For Products","Utiliser un lien canonique de meta tag pour les produits",module,Magento_Catalog
 "Catalog Price Scope","Portée des prix catalogue",module,Magento_Catalog
+"This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","Ceci définit la devise de base champ d'application (la""Monnaie d'Installation"" > ""Options de change"" > ""Devise de Base"").",module,Magento_Catalog
 "Category Top Navigation","Navigation dans les catégories",module,Magento_Catalog
 "Maximal Depth","Profondeur maxi",module,Magento_Catalog
 "Date & Time Custom Options","Options de date & heure personnalisées",module,Magento_Catalog
@@ -3525,12 +3544,14 @@ Comma-separated.,"Séparées par des virgules.",module,Magento_Catalog
 "Date Fields Order","Ordre des champs de date",module,Magento_Catalog
 "Time Format","Format d'heure",module,Magento_Catalog
 "Year Range","Période annuelle",module,Magento_Catalog
+"Please use a four-digit year format.","Veuillez utiliser un format année sur quatre chiffres.",module,Magento_Catalog
 "Product Image Watermarks","Filigranes d'images de produits",module,Magento_Catalog
 "Watermark Default Size","Taille par défaut du filigrane",module,Magento_Catalog
 "Watermark Opacity, Percent","Pourcentage d'opacité du filigrane",module,Magento_Catalog
 Watermark,Filigrane,module,Magento_Catalog
 "Watermark Position","Positionnement du filigrane",module,Magento_Catalog
 "Use Static URLs for Media Content in WYSIWYG for Catalog","Utiliser les URLs statiques pour le contenu média dans l'éditeur WYSIWYG pour le catalogue",module,Magento_Catalog
+"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Cela s'applique uniquement au catalogue de produits et de catégories. Le contenu des médias sera inséré dans l'éditeur comme une URL statique. Le contenu des médias n'est pas mis à jour si le système de configuration de la base de changements de l'URL.",module,Magento_Catalog
 "Product Flat Data","Données fixes de produit",module,Magento_Catalog
 "Reorganize EAV product structure to flat structure","Réorganise la structure de produit EAV en une structure fixe",module,Magento_Catalog
 "Category Flat Data","Données fixes de catégorie",module,Magento_Catalog
@@ -3550,6 +3571,8 @@ Watermark,Filigrane,module,Magento_Catalog
 Template,Gabarit,module,Magento_Catalog
 "New Products Grid Template","Gabarit des nouveaux produits sous forme de grille",module,Magento_Catalog
 "New Products List Template","Gabarit des nouveaux produits sous forme de liste",module,Magento_Catalog
+"New Products Images and Names Template","Nouveau des Images de Produits et Noms de Modèle",module,Magento_Catalog
+"New Products Names Only Template","De Nouveaux Produits Uniquement Des Noms De Modèle",module,Magento_Catalog
 "Cache Lifetime (Seconds)","Durée de vie du cache (secondes)",module,Magento_Catalog
 "Catalog Product Link","Lien produit catalogue",module,Magento_Catalog
 "Link to a Specified Product","Lien vers un produit spécifique",module,Magento_Catalog
@@ -3579,6 +3602,7 @@ Details,Détails,module,Magento_Catalog
 "Maximum Display Recently Added Item(s)","Nombre maxi d'articles récemment ajoutés à afficher",module,Magento_Checkout
 "Payment Failed Emails","Emails d'erreur de paiement",module,Magento_Checkout
 "Payment Failed Email Sender","Expéditeur du mail d'erreur de paiement",module,Magento_Checkout
+"Payment Failed Email Receiver","Échec Du Paiement Électronique Récepteur",module,Magento_Checkout
 "Payment Failed Template","Gabarit d'erreur de paiement",module,Magento_Checkout
 "Send Payment Failed Email Copy To","Envoyer une copie du mail d'erreur de paiement à",module,Magento_Checkout
 "Separate by "","".","Separate by "",Séparer par """"",module,Magento_Checkout
@@ -3642,6 +3666,7 @@ Block,Bloc,module,Magento_Cms
 "Validation Error Group","Groupe d'erreur de validation",module,Magento_Customer
 "Validate on Each Transaction","Valider à chaque transaction",module,Magento_Customer
 "Default Value for Disable Automatic Group Changes Based on VAT ID","Valeur par défaut pour la désactivation des changement de groupe automatiques basés sur le numéro de TVA",module,Magento_Customer
+"To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","Pour afficher le numéro de TVA sur la Devanture, de définir Afficher le Numéro de TVA sur la Devanture option Oui.",module,Magento_Customer
 "Default Email Domain","Domaine de mail par défaut",module,Magento_Customer
 "Default Welcome Email","Email d'accueil par défaut",module,Magento_Customer
 "Default Welcome Email Without Password","Email de bienvenue par défaut sans mot de passe",module,Magento_Customer
