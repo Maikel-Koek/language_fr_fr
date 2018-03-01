@@ -613,6 +613,7 @@ Always,Toujours,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","Autoriser les quantités négatives et prévenir le client",module,Magento_CatalogInventory
 "In Stock","En stock",module,Magento_CatalogInventory
 "Out of Stock",Épuisé,module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","Pas tous vos produits sont disponibles dans la quantité demandée.",module,Magento_CatalogInventory
 "Product Name","Nom de produit",module,Magento_CatalogInventory
 Qty,Qté,module,Magento_CatalogInventory
 "Catalog Price Rule","Règle de prix catalogue",module,Magento_CatalogRule
@@ -641,10 +642,12 @@ Priority,Priorité,module,Magento_CatalogRule
 "Attribute Set","Jeu d'attributs",module,Magento_CatalogRule
 SKU,Réf.,module,Magento_CatalogRule
 Product,Produit,module,Magento_CatalogRule
+"We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","Nous avons mis à jour les règles qui ne sont pas appliquées. Veuillez cliquez sur ""Appliquer les Règles"" pour mettre à jour votre catalogue.",module,Magento_CatalogRule
 "This rule no longer exists.","Cette règle n'existe plus.",module,Magento_CatalogRule
 "Edit Rule","Éditer la règle",module,Magento_CatalogRule
 Catalog,Catalogue,module,Magento_CatalogRule
 "Wrong rule specified.","Mauvaise règle spécifiée",module,Magento_CatalogRule
+"Something went wrong while saving the rule data. Please review the error log.","Quelque chose s'est mal passé, tout en économisant de la règle de données. Veuillez consulter le journal des erreurs.",module,Magento_CatalogRule
 "Could not rebuild index for empty products array","Impossible de charger le fichier : ""%s"".",module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Votre commande est en cours de traitement et vous recevrez bientôt un mail avec les détails de la commande. Quand la commande sera expédiée, vous recevrez un autre mail avec un lien pour suivre l'avancement de la livraison.",module,Magento_CatalogRule
 "Update the Product","Mettre à jour le produit",module,Magento_CatalogRule
@@ -666,12 +669,18 @@ Grid,Grille,module,Magento_CatalogSearch
 List,Liste,module,Magento_CatalogSearch
 "Search Weight","Poids dans la recherche",module,Magento_CatalogSearch
 Relevance,Pertinence,module,Magento_CatalogSearch
+"Search results for: '%1'","Résultats de recherche pour : '%1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","Longueur minimale de requête recherche %1",module,Magento_CatalogSearch
 "Please specify at least one search term.","Spécifiez au moins un terme de recherche.",module,Magento_CatalogSearch
+"%1 and greater","%1 et supérieur",module,Magento_CatalogSearch
+"up to %1","jusqu'à %1",module,Magento_CatalogSearch
 Category,Catégorie,module,Magento_CatalogSearch
+"%1 and above","%1 et plus",module,Magento_CatalogSearch
 Product,Produit,module,Magento_CatalogSearch
 "Search Settings","Paramètres de recherche",module,Magento_CatalogSearch
 Search,Chercher,module,Magento_CatalogSearch
 "Advanced Search","Recherche avancée",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 éléments</strong> ont été trouvés avec ces critères de recherche",module,Magento_CatalogSearch
 "Modify your search","Modifier votre recherche",module,Magento_CatalogSearch
 name,Nom,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Vous ne trouvez pas ce que vous cherchez ?",module,Magento_CatalogSearch
@@ -1249,9 +1258,11 @@ State/Province,État/Région,module,Magento_Checkout
 Checkout,Commander,module,Magento_Checkout
 "Page not found.","Page introuvable.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Veuillez accepter les conditions générales de ventes avant de valider la commande.",module,Magento_Checkout
+"Something went wrong while processing your order. Please try again later.","Quelque chose s'est mal passé lors du traitement de votre commande. S'il vous plaît essayer à nouveau plus tard.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 n’étend pas \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "We can't find the product.","Votre commande est en cours de traitement et vous recevrez bientôt un mail avec les détails de la commande. Quand la commande sera expédiée, vous recevrez un autre mail avec un lien pour suivre l'avancement de la livraison.",module,Magento_Checkout
 "The product does not exist.","Le produit n'existe pas.",module,Magento_Checkout
+"We adjusted product quantities to fit the required increments.","Nous avons ajusté les quantités du produit pour s'adapter à la nécessaire incréments.",module,Magento_Checkout
 "Display number of items in cart","Afficher le nombre de produits différents dans le panier",module,Magento_Checkout
 "Display item quantities","Afficher la quantité totale d'articles dans le panier",module,Magento_Checkout
 "Shipping address is not set","L'adresse de livraison n'est pas renseignée",module,Magento_Checkout
@@ -1260,6 +1271,8 @@ Checkout,Commander,module,Magento_Checkout
 "Cart contains virtual product(s) only. Shipping address is not applicable.","Le panier contient uniquement un (des) produit(s) virtuel(s). L'adresse d’expédition n’est pas applicable.",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","Ce mode de livraison n’est pas applicable pour un panier vide",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Calcul des totaux n’est pas applicable au panier vide",module,Magento_Checkout
+"There are more than one shipping addresses.","Il y a plusieurs adresses de livraison.",module,Magento_Checkout
+"Sorry, guest checkout is not available.","Désolé, le guest checkout n'est pas disponible.",module,Magento_Checkout
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Vous pourriez également être intéressé par le(s) produit(s) suivant(s)",module,Magento_Checkout
 "Load customer quote error","Erreur lors du chargement du panier client",module,Magento_Checkout
 "Wrong minimum amount.","Montant minimal erroné.",module,Magento_Checkout
@@ -1456,6 +1469,8 @@ Delete,Supprimer,module,Magento_Config
 "Current Configuration Scope:","Portée de la configuration courante :",module,Magento_Config
 Stores,Magasins,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","En_US. csv",module,Magento_ConfigurableProduct
+"Add configurable attributes to the new Attribute Set based on current","Ajouter des attributs configurables pour le nouvel Attribut Défini sur la base du courant",module,Magento_ConfigurableProduct
+"Add configurable attributes to the existing Attribute Set","Ajouter des attributs configurables à l'Attribut existant Ensemble",module,Magento_ConfigurableProduct
 "Attribute Values","Image de produit configurable",module,Magento_ConfigurableProduct
 "Create New Attribute","Créer un nouvel attribut",module,Magento_ConfigurableProduct
 "Select Attributes","Sélectionnez les attributs",module,Magento_ConfigurableProduct
@@ -1474,6 +1489,7 @@ Summary,Résumé,module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not exist.","Le produit avec l'id ""%1"" n'existe pas.",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Impossible d'ajouter le produit au panier",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Javascript doit être activé dans votre navigateur pour utiliser toutes les fonctionnalités de ce site.",module,Magento_ConfigurableProduct
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Ce groupe contient les attributs utilisés dans des produits configurables. S'il vous plaît déplacer ces attributs à un autre groupe et essayez de nouveau.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","Cet attribut est utilisé dans des produits configurables. Vous ne pouvez pas le retirer de ce jeu d'attributs.",module,Magento_ConfigurableProduct
 "Associated Products","Produits associés",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","Étape 2: Valeurs des attributs",module,Magento_ConfigurableProduct
@@ -1548,8 +1564,14 @@ System,Système,module,Magento_CurrencySymbol
 "We found an invalid value in a website column.","Merci de renseigner un mot de passe avec une longueur valide.",module,Magento_CustomerImportExport
 "Please enter a valid email.","Veuillez saisir une adresse email valide.",module,Magento_CustomerImportExport
 "We can't find a customer who matches this email and website code.","Nous ne pouvons pas trouver un client qui correspond à ce email et site Web.",module,Magento_CustomerImportExport
+"Customer address id column is not specified","La clientèle de l'adresse de colonne d'id n'est pas spécifié",module,Magento_CustomerImportExport
 "We can't find that customer address.","Nous ne pouvons pas trouver l’adresse de ce client.",module,Magento_CustomerImportExport
+"We found another row with this email, website and address ID combination.","Nous avons trouvé une autre ligne avec cet e-mail, site web et adresse combinaison d'ID.",module,Magento_CustomerImportExport
+"This email is found more than once in the import file.","Cet e-mail est trouvé plus d'une fois dans le fichier d'importation.",module,Magento_CustomerImportExport
+"Orphan rows that will be skipped due default row errors","Orphelin de lignes qui seront ignorés en raison de ligne par défaut des erreurs",module,Magento_CustomerImportExport
+"Invalid value in Store column (store does not exists?)","Valeur non valide dans la colonne Store (le magasin n'existe pas?)",module,Magento_CustomerImportExport
 "We can't find that email and website combination.","Nous ne pouvons pas trouver cette combinaison email et site Web.",module,Magento_CustomerImportExport
+"Please enter a password with a valid length.","Veuillez entrer un mot de passe avec une longueur valide.",module,Magento_CustomerImportExport
 "Sign Out",Déconnexion,module,Magento_Customer
 "Sign In","Mon tableau de bord",module,Magento_Customer
 "You have not set a default shipping address.","Vous n'avez pas spécifié d'adresse de livraison par défaut.",module,Magento_Customer
@@ -1740,6 +1762,8 @@ label,Libellé,module,Magento_Customer
 "Your Tax ID cannot be validated.","Votre numéro de TVA ne peut pas être validé.",module,Magento_Customer
 "If you believe this is an error, please contact us at %1","Si vous pensez qu'il s'agit d'une erreur, contactez-nous au %1",module,Magento_Customer
 "Thank you for registering with","Merci de vous être inscrit",module,Magento_Customer
+"enter your billing address for proper VAT calculation","entrez votre adresse de facturation de TVA calcul",module,Magento_Customer
+"enter your shipping address for proper VAT calculation","entrez votre adresse de livraison pour le bon calcul de la TVA",module,Magento_Customer
 message,Message,module,Magento_Customer
 Label,Libellé,module,Magento_Customer
 Select...,Sélectionner...,module,Magento_Customer
@@ -2007,6 +2031,7 @@ Reset,Réinitialiser,module,Magento_Email
 "New Email Template","Nouveau gabarit de mail",module,Magento_Email
 "Default Config","Configuration par défaut",module,Magento_Email
 "Template Information","Informations gabarit",module,Magento_Email
+"Currently Used For","Actuellement utilisé pour",module,Magento_Email
 "Template Name","Nom du gabarit",module,Magento_Email
 "Template Subject","Sujet du gabarit",module,Magento_Email
 "Insert Variable...","Insérer une variable...",module,Magento_Email
@@ -2022,6 +2047,8 @@ Unknown,Inconnu,module,Magento_Email
 "New System Template","Nouveau gabarit système",module,Magento_Email
 "Email Templates","Gabarits d'email",module,Magento_Email
 "Email Preview","Aperçu de l'email",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Une erreur s’est produite. Le modèle d’e-mail ne peut pas être ouvert pour la prévisualisation.",module,Magento_Email
+"This email template no longer exists.","Ce gabarit d'email n'existe plus.",module,Magento_Email
 "You saved the email template.","Vous avez enregistré le gabarit d'e-mail.",module,Magento_Email
 "Area is already set","La zone est déjà définie",module,Magento_Email
 "Base Unsecure URL","URL de base non sécurisée",module,Magento_Email
@@ -2045,11 +2072,22 @@ City,Ville,module,Magento_Email
 "Street Address 2","Complément d'adresse",module,Magento_Email
 "Store Contact Information","Informations de contact du magasin",module,Magento_Email
 "Template Variables","Variables de gabarit",module,Magento_Email
+"Please enter a template name.","Saisissez un nouveau nom de gabarit.",module,Magento_Email
 "Duplicate Of Template Name","Duplication du nom de gabarit",module,Magento_Email
+"Invalid transactional email code: %1","Email transactionnel invalide code : %1",module,Magento_Email
+"Requested invalid store ""%1""","Le magasin demandé ""%1"" n'est pas valide",module,Magento_Email
+"""file"" parameter must be specified","Le « fichier » paramètre doit être spécifié",module,Magento_Email
+"Contents of %s could not be loaded or is empty","Contenu de %s n'a pas pu être chargé ou il est vide",module,Magento_Email
+"""file"" parameter must be specified and must not be empty","Le « fichier » paramètre doit être spécifié et ne doit pas être vide",module,Magento_Email
 "<pre> %1 </pre>",<pre>%1</pre>,module,Magento_Email
+"CSS inlining error:","Erreur fonction inline CSS :",module,Magento_Email
+"Invalid sender data","L'email de l'expéditeur est invalide",module,Magento_Email
 Title,Titre,module,Magento_Email
 "Load default template","Charger le gabarit par défaut",module,Magento_Email
 Template,Gabarit,module,Magento_Email
+"Are you sure you want to strip tags?","Êtes-vous sûr de vouloir supprimer les tags ?",module,Magento_Email
+"Are you sure you want to delete this template?","Êtes-vous sûr de vouloir supprimer le modèle ?",module,Magento_Email
+"The template did not load. Please review the log for details.","Le modèle n’a pas été chargé. Veuillez consulter le journal pour plus de détails.",module,Magento_Email
 "Change Encryption Key","Modifier la clé de chiffrement",module,Magento_EncryptionKey
 "Encryption Key","Clef de chiffrement",module,Magento_EncryptionKey
 "New Encryption Key","Nouvelle clé de chiffrement",module,Magento_EncryptionKey
@@ -4224,6 +4262,8 @@ Submit,Valider,module,Magento_Catalog
 "We could not detect a size.","Impossible de détecter le poids du fichier.",module,Magento_Cms
 "Incl. Tax",TTC,module,Magento_ConfigurableProduct
 Done,Terminé,module,Magento_ConfigurableProduct
+"An attribute has been removed. This attribute will no longer appear in your configurations.","Un attribut a été supprimé. Cet attribut n'apparaîtra plus dans vos configurations.",module,Magento_ConfigurableProduct
+"Select options for all attributes or remove unused attributes.","Sélectionnez options pour tous les attributs ou supprimer les attributs.",module,Magento_ConfigurableProduct
 "Please choose image(s)","Veuillez choisir la ou les image(s)",module,Magento_ConfigurableProduct
 "We could not detect a size.","Impossible de détecter le poids du fichier.",module,Magento_ConfigurableProduct
 "We don't recognize or support this file extension type.","Le type de fichier n'est pas reconnu ou n'est pas autorisé.",module,Magento_ConfigurableProduct
@@ -4534,6 +4574,7 @@ Comma-separated.,"Séparées par des virgules.",module,Magento_Catalog
 "Use Flat Catalog Product","Utiliser le catalogue à plat pour les produits",module,Magento_Catalog
 "Product Listing Sort by","Tri des listes de produits",module,Magento_Catalog
 "Allow All Products per Page","Autoriser tous les produits par page",module,Magento_Catalog
+"Whether to show ""All"" option in the ""Show X Per Page"" dropdown","Si option ""Tous"" dans le ""Afficher les X Par Page"" liste déroulante",module,Magento_Catalog
 "Allow Dynamic Media URLs in Products and Categories","Autoriser les URLs de media dynamiques dans les produits et catégories",module,Magento_Catalog
 "E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","Par ex. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Le parsing des directives dynamiques peut affecter les performances du catalogue.",module,Magento_Catalog
 "Product Image Placeholders","Emplacements de l'image par défaut des produits",module,Magento_Catalog
@@ -4541,6 +4582,7 @@ Comma-separated.,"Séparées par des virgules.",module,Magento_Catalog
 "Use Canonical Link Meta Tag For Categories","Utiliser un lien canonique de meta tag pour les catégories",module,Magento_Catalog
 "Use Canonical Link Meta Tag For Products","Utiliser un lien canonique de meta tag pour les produits",module,Magento_Catalog
 "Catalog Price Scope","Portée des prix catalogue",module,Magento_Catalog
+"This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","Ceci définit la devise de base champ d'application (la""Monnaie d'Installation"" > ""Options de change"" > ""Devise de Base"").",module,Magento_Catalog
 "Category Top Navigation","Navigation dans les catégories",module,Magento_Catalog
 "Maximal Depth","Profondeur maxi",module,Magento_Catalog
 "Date & Time Custom Options","Options de date & heure personnalisées",module,Magento_Catalog
@@ -4548,12 +4590,14 @@ Comma-separated.,"Séparées par des virgules.",module,Magento_Catalog
 "Date Fields Order","Ordre des champs de date",module,Magento_Catalog
 "Time Format","Format d'heure",module,Magento_Catalog
 "Year Range","Période annuelle",module,Magento_Catalog
+"Please use a four-digit year format.","Veuillez utiliser un format année sur quatre chiffres.",module,Magento_Catalog
 "Product Image Watermarks","Filigranes d'images de produits",module,Magento_Catalog
 "Watermark Default Size","Taille par défaut du filigrane",module,Magento_Catalog
 "Watermark Opacity, Percent","Pourcentage d'opacité du filigrane",module,Magento_Catalog
 Watermark,Filigrane,module,Magento_Catalog
 "Watermark Position","Positionnement du filigrane",module,Magento_Catalog
 "Use Static URLs for Media Content in WYSIWYG for Catalog","Utiliser les URLs statiques pour le contenu média dans l'éditeur WYSIWYG pour le catalogue",module,Magento_Catalog
+"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Cela s'applique uniquement au catalogue de produits et de catégories. Le contenu des médias sera inséré dans l'éditeur comme une URL statique. Le contenu des médias n'est pas mis à jour si le système de configuration de la base de changements de l'URL.",module,Magento_Catalog
 "Top Level Category","Catégorie de niveau supérieur",module,Magento_Catalog
 "Product Flat Data","Données fixes de produit",module,Magento_Catalog
 "Reorganize EAV product structure to flat structure","Réorganise la structure de produit EAV en une structure fixe",module,Magento_Catalog
@@ -4574,6 +4618,8 @@ Watermark,Filigrane,module,Magento_Catalog
 Template,Gabarit,module,Magento_Catalog
 "New Products Grid Template","Gabarit des nouveaux produits sous forme de grille",module,Magento_Catalog
 "New Products List Template","Gabarit des nouveaux produits sous forme de liste",module,Magento_Catalog
+"New Products Images and Names Template","Nouveau des Images de Produits et Noms de Modèle",module,Magento_Catalog
+"New Products Names Only Template","De Nouveaux Produits Uniquement Des Noms De Modèle",module,Magento_Catalog
 "Cache Lifetime (Seconds)","Durée de vie du cache (secondes)",module,Magento_Catalog
 "Catalog Product Link","Lien produit catalogue",module,Magento_Catalog
 "Link to a Specified Product","Lien vers un produit spécifique",module,Magento_Catalog
@@ -4611,6 +4657,7 @@ Details,Détails,module,Magento_Catalog
 "Maximum Display Recently Added Item(s)","Nombre maxi d'articles récemment ajoutés à afficher",module,Magento_Checkout
 "Payment Failed Emails","Emails d'erreur de paiement",module,Magento_Checkout
 "Payment Failed Email Sender","Expéditeur du mail d'erreur de paiement",module,Magento_Checkout
+"Payment Failed Email Receiver","Échec Du Paiement Électronique Récepteur",module,Magento_Checkout
 "Payment Failed Template","Gabarit d'erreur de paiement",module,Magento_Checkout
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Checkout
 "Send Payment Failed Email Copy To","Envoyer une copie du mail d'erreur de paiement à",module,Magento_Checkout
@@ -4714,6 +4761,7 @@ Searchable,"Utiliser dans la recherche",module,Magento_ConfigurableProduct
 "Validation Error Group","Groupe d'erreur de validation",module,Magento_Customer
 "Validate on Each Transaction","Valider à chaque transaction",module,Magento_Customer
 "Default Value for Disable Automatic Group Changes Based on VAT ID","Valeur par défaut pour la désactivation des changement de groupe automatiques basés sur le numéro de TVA",module,Magento_Customer
+"To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","Pour afficher le numéro de TVA sur la Devanture, de définir Afficher le Numéro de TVA sur la Devanture option Oui.",module,Magento_Customer
 "Default Email Domain","Domaine de mail par défaut",module,Magento_Customer
 "Default Welcome Email","Email d'accueil par défaut",module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Customer
@@ -4751,6 +4799,7 @@ Searchable,"Utiliser dans la recherche",module,Magento_ConfigurableProduct
 "Online Customers Options","Options des clients en ligne",module,Magento_Customer
 "Online Minutes Interval","Intervalle en minutes",module,Magento_Customer
 "Leave empty for default (15 minutes).","Laisser vide pour utiliser la valeur par défaut (15 minutes).",module,Magento_Customer
+"Enable Autocomplete on login/forgot password forms","Activer la saisie semi-automatique sur login/mot de passe oublié formes",module,Magento_Customer
 "Rebuild Customer grid index","Reconstruire l'index de la grille client",module,Magento_Customer
 Group,Groupe,module,Magento_Customer
 "Add New Customer","Ajouter un nouveau client",module,Magento_Customer
@@ -4835,7 +4884,9 @@ Emails,"Email :",module,Magento_Email
 "Logo Image Alt","Texte alternatif du logo",module,Magento_Email
 "Logo Width","Largeur du logo",module,Magento_Email
 "Logo Height","Hauteur du logo",module,Magento_Email
+"Header Template","Modèle d’en-tête",module,Magento_Email
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d'email choisi est basé sur le thème parent lorsque l'option ""Défaut"" est sélectionnée.",module,Magento_Email
+"Footer Template","Modèle de pied de page",module,Magento_Email
 "No Templates Found","Aucun gabarit trouvé",module,Magento_Email
 Added,"Ajouter vos mots clés :",module,Magento_Email
 Updated,"Mis à jour",module,Magento_Email
