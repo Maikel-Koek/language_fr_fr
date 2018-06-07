@@ -2553,7 +2553,7 @@ No,Non,module,Magento_OfflineShipping
 "For shipment with matching items","Pour les expéditions avec articles concordants",module,Magento_OfflineShipping
 "We cannot retrieve the payment method model object.","Information de carte bancaire",module,Magento_Payment
 Month,Mois,module,Magento_Payment
-Year,"Année""<a href=""%s"" target=""_blank"">Link</a>",module,Magento_Payment
+Year,"Année",module,Magento_Payment
 "Credit Card Type","Type de carte de crédit",module,Magento_Payment
 "Credit Card Number","Numéro de carte bancaire",module,Magento_Payment
 "Switch/Solo/Maestro Issue Number","Numéro de problème Switch/Solo/Maestro",module,Magento_Payment
@@ -2913,7 +2913,7 @@ Tax,"TVA & autres taxes",module,Magento_Quote
 Filter,Filtre,module,Magento_Reports
 Day,Jour,module,Magento_Reports
 Month,Mois,module,Magento_Reports
-Year,"Année""<a href=""%s"" target=""_blank"">Link</a>",module,Magento_Reports
+Year,"Année",module,Magento_Reports
 Period,Période,module,Magento_Reports
 From,Depuis,module,Magento_Reports
 To,À,module,Magento_Reports
